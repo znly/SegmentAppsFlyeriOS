@@ -1,0 +1,6 @@
+framework module SegmentAppsFlyeriOS {
+    umbrella header "SegmentAppsFlyeriOS-umbrella.h"
+
+    export *
+    module * { export * }
+}
