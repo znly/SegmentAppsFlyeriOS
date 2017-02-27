@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACFCC66F1E643E10003080B7 /* AppsFlyerTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFCC66E1E643E10003080B7 /* AppsFlyerTracker.framework */; };
+		ACFCC6741E644770003080B7 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFCC6731E644770003080B7 /* Analytics.framework */; };
+		ACFCC6791E6448A9003080B7 /* SEGAppsFlyerIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6751E6448A9003080B7 /* SEGAppsFlyerIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFCC67A1E6448A9003080B7 /* SEGAppsFlyerIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFCC6761E6448A9003080B7 /* SEGAppsFlyerIntegration.m */; };
+		ACFCC67B1E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6771E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFCC67C1E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFCC6781E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.m */; };
+		ACFCC6811E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC67E1E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFCC6831E6448DB003080B7 /* SegmentAppsFlyeriOS.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6821E6448DB003080B7 /* SegmentAppsFlyeriOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACFCC6571E643B9C003080B7 /* SegmentAppsFlyeriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentAppsFlyeriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFCC66E1E643E10003080B7 /* AppsFlyerTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppsFlyerTracker.framework; path = Carthage/Build/iOS/AppsFlyerTracker.framework; sourceTree = SOURCE_ROOT; };
+		ACFCC6731E644770003080B7 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = Carthage/Build/iOS/Analytics.framework; sourceTree = SOURCE_ROOT; };
+		ACFCC6751E6448A9003080B7 /* SEGAppsFlyerIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGAppsFlyerIntegration.h; path = SegmentAppsFlyeriOS/Classes/SEGAppsFlyerIntegration.h; sourceTree = SOURCE_ROOT; };
+		ACFCC6761E6448A9003080B7 /* SEGAppsFlyerIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEGAppsFlyerIntegration.m; path = SegmentAppsFlyeriOS/Classes/SEGAppsFlyerIntegration.m; sourceTree = SOURCE_ROOT; };
+		ACFCC6771E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SegAppsFlyerIntegrationFactory.h; path = SegmentAppsFlyeriOS/Classes/SegAppsFlyerIntegrationFactory.h; sourceTree = SOURCE_ROOT; };
+		ACFCC6781E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SegAppsFlyerIntegrationFactory.m; path = SegmentAppsFlyeriOS/Classes/SegAppsFlyerIntegrationFactory.m; sourceTree = SOURCE_ROOT; };
+		ACFCC67D1E6448BA003080B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SegmentAppsFlyeriOS/Info.plist; sourceTree = SOURCE_ROOT; };
+		ACFCC67E1E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SegmentAppsFlyeriOS-umbrella.h"; path = "SegmentAppsFlyeriOS/SegmentAppsFlyeriOS-umbrella.h"; sourceTree = SOURCE_ROOT; };
+		ACFCC67F1E6448BA003080B7 /* SegmentAppsFlyeriOS.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SegmentAppsFlyeriOS.modulemap; path = SegmentAppsFlyeriOS/SegmentAppsFlyeriOS.modulemap; sourceTree = SOURCE_ROOT; };
+		ACFCC6821E6448DB003080B7 /* SegmentAppsFlyeriOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SegmentAppsFlyeriOS.h; path = SegmentAppsFlyeriOS/SegmentAppsFlyeriOS.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFCC6531E643B9C003080B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFCC66F1E643E10003080B7 /* AppsFlyerTracker.framework in Frameworks */,
+				ACFCC6741E644770003080B7 /* Analytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFCC64D1E643B9C003080B7 = {
+			isa = PBXGroup;
+			children = (
+				ACFCC6591E643B9C003080B7 /* SegmentAppsFlyeriOS */,
+				ACFCC6581E643B9C003080B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFCC6581E643B9C003080B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCC6571E643B9C003080B7 /* SegmentAppsFlyeriOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFCC6591E643B9C003080B7 /* SegmentAppsFlyeriOS */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCC6821E6448DB003080B7 /* SegmentAppsFlyeriOS.h */,
+				ACFCC67D1E6448BA003080B7 /* Info.plist */,
+				ACFCC67E1E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h */,
+				ACFCC67F1E6448BA003080B7 /* SegmentAppsFlyeriOS.modulemap */,
+				ACFCC66D1E643D58003080B7 /* Frameworks */,
+				ACFCC6621E643BDB003080B7 /* Classes */,
+			);
+			name = SegmentAppsFlyeriOS;
+			path = "segment-appsflyer-ios";
+			sourceTree = "<group>";
+		};
+		ACFCC6621E643BDB003080B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCC6751E6448A9003080B7 /* SEGAppsFlyerIntegration.h */,
+				ACFCC6761E6448A9003080B7 /* SEGAppsFlyerIntegration.m */,
+				ACFCC6771E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h */,
+				ACFCC6781E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ACFCC66D1E643D58003080B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCC6731E644770003080B7 /* Analytics.framework */,
+				ACFCC66E1E643E10003080B7 /* AppsFlyerTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACFCC6541E643B9C003080B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFCC6791E6448A9003080B7 /* SEGAppsFlyerIntegration.h in Headers */,
+				ACFCC67B1E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h in Headers */,
+				ACFCC6811E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h in Headers */,
+				ACFCC6831E6448DB003080B7 /* SegmentAppsFlyeriOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ACFCC6561E643B9C003080B7 /* SegmentAppsFlyeriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFCC65F1E643B9C003080B7 /* Build configuration list for PBXNativeTarget "SegmentAppsFlyeriOS" */;
+			buildPhases = (
+				ACFCC6521E643B9C003080B7 /* Sources */,
+				ACFCC6531E643B9C003080B7 /* Frameworks */,
+				ACFCC6541E643B9C003080B7 /* Headers */,
+				ACFCC6551E643B9C003080B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentAppsFlyeriOS;
+			productName = "segment-appsflyer-ios";
+			productReference = ACFCC6571E643B9C003080B7 /* SegmentAppsFlyeriOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFCC64E1E643B9C003080B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kevin CATHALY";
+				TargetAttributes = {
+					ACFCC6561E643B9C003080B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACFCC6511E643B9C003080B7 /* Build configuration list for PBXProject "SegmentAppsFlyeriOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACFCC64D1E643B9C003080B7;
+			productRefGroup = ACFCC6581E643B9C003080B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFCC6561E643B9C003080B7 /* SegmentAppsFlyeriOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFCC6551E643B9C003080B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFCC6521E643B9C003080B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFCC67C1E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.m in Sources */,
+				ACFCC67A1E6448A9003080B7 /* SEGAppsFlyerIntegration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACFCC65D1E643B9C003080B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACFCC65E1E643B9C003080B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACFCC6601E643B9C003080B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SegmentAppsFlyeriOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = SegmentAppsFlyeriOS/SegmentAppsFlyeriOS.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.segment.SegmentAppsFlyeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ACFCC6611E643B9C003080B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SegmentAppsFlyeriOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = SegmentAppsFlyeriOS/SegmentAppsFlyeriOS.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.segment.SegmentAppsFlyeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFCC6511E643B9C003080B7 /* Build configuration list for PBXProject "SegmentAppsFlyeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFCC65D1E643B9C003080B7 /* Debug */,
+				ACFCC65E1E643B9C003080B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFCC65F1E643B9C003080B7 /* Build configuration list for PBXNativeTarget "SegmentAppsFlyeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFCC6601E643B9C003080B7 /* Debug */,
+				ACFCC6611E643B9C003080B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFCC64E1E643B9C003080B7 /* Project object */;
+}
