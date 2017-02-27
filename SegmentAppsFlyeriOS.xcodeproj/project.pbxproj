@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		ACFCC66F1E643E10003080B7 /* AppsFlyerTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFCC66E1E643E10003080B7 /* AppsFlyerTracker.framework */; };
 		ACFCC6741E644770003080B7 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFCC6731E644770003080B7 /* Analytics.framework */; };
-		ACFCC6791E6448A9003080B7 /* SEGAppsFlyerIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6751E6448A9003080B7 /* SEGAppsFlyerIntegration.h */; };
+		ACFCC6791E6448A9003080B7 /* SEGAppsFlyerIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6751E6448A9003080B7 /* SEGAppsFlyerIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACFCC67A1E6448A9003080B7 /* SEGAppsFlyerIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFCC6761E6448A9003080B7 /* SEGAppsFlyerIntegration.m */; };
-		ACFCC67B1E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6771E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h */; };
+		ACFCC67B1E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6771E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACFCC67C1E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFCC6781E6448A9003080B7 /* SegAppsFlyerIntegrationFactory.m */; };
-		ACFCC6811E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC67E1E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h */; };
-		ACFCC6831E6448DB003080B7 /* SegmentAppsFlyeriOS.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6821E6448DB003080B7 /* SegmentAppsFlyeriOS.h */; };
+		ACFCC6811E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC67E1E6448BA003080B7 /* SegmentAppsFlyeriOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFCC6831E6448DB003080B7 /* SegmentAppsFlyeriOS.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCC6821E6448DB003080B7 /* SegmentAppsFlyeriOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -298,9 +298,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.segment-appsflyer-ios";
+				MODULEMAP_FILE = SegmentAppsFlyeriOS/SegmentAppsFlyeriOS.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.segment.SegmentAppsFlyeriOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -323,9 +325,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.segment-appsflyer-ios";
+				MODULEMAP_FILE = SegmentAppsFlyeriOS/SegmentAppsFlyeriOS.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.segment.SegmentAppsFlyeriOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
