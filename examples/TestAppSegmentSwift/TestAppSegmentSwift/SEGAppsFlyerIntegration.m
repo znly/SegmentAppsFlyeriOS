@@ -61,18 +61,15 @@
         
         if ([NSThread isMainThread]) {
             [self.appsflyer setCustomerUserID:payload.userId];
-            SEGLog(@"setCustomerUserID:%@]", payload.userId);
         } else {
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self.appsflyer setCustomerUserID:payload.userId];
-                SEGLog(@"setCustomerUserID:%@]", payload.userId);
             });
         }
     }
     
     if ([payload.traits[@"currencyCode"] isKindOfClass:[NSString class]]) {
         self.appsflyer.currencyCode = payload.traits[@"currencyCode"];
-        SEGLog(@"self.appsflyer.currencyCode: %@", payload.traits[@"currencyCode"]);
     }
     
     if ([payload.traits[@"email"] isKindOfClass:[NSString class]]) {
@@ -103,7 +100,6 @@
 - (void)track:(SEGTrackPayload *)payload
 {
     if (payload.properties != nil){
-        SEGLog(@"trackEvent: %@", payload.properties);
     }
     
     // Extract the revenue from the properties passed in to us.
@@ -164,7 +160,6 @@
 }
 
 -(void)onConversionDataRequestFailure:(NSError *) error {
-    SEGLog(@"[Appsflyer] onConversionDataRequestFailure:%@]", error);
 }
 
 - (BOOL)trackAttributionData
