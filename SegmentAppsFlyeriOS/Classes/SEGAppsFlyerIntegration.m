@@ -7,7 +7,6 @@
 //
 
 #import "SEGAppsFlyerIntegration.h"
-#import <Analytics/SEGAnalyticsUtils.h>
 
 @implementation SEGAppsFlyerIntegration
 
