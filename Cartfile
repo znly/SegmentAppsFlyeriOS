@@ -1,1 +1,2 @@
-github "znly/analytics-ios" "master"
+github "AppsFlyerSDK/AppsFlyerFramework"
+github "segmentio/analytics-ios"
